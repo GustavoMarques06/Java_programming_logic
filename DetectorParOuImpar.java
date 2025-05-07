@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ParOuImpar {
+public class DetectorParOuImpar {
 	public static void main(String[] args) {
 		System.out.println("========================");
 		System.out.println("Detector de PAR / IMPAR");
