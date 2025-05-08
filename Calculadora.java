@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Calculadora {
   public static void main(String [] args) {
-    System.out.println("========================");
+    System.out.println("=============================");
 	System.out.println("Calculadora Top");
-	System.out.println("========================");
+    System.out.println("=============================");
     
     
     Scanner entrada = new Scanner(System.in);
@@ -12,13 +12,13 @@ public class Calculadora {
     double Valor1 = entrada.nextDouble();
     System.out.print("\nDigite o segundo numero: ");
     double Valor2 = entrada.nextDouble();
-    System.out.println("\n========================");
+    System.out.println("\n=============================");
     
-    System.out.println("Digite 1 para Soma");
-    System.out.println("Digite 2 para Subtração");
-    System.out.println("Digite 3 para Multiplicação");
-    System.out.println("Digite 4 para Divisão");
-	System.out.println("========================");
+    System.out.println("Digite (1) para Soma");
+    System.out.println("Digite (2) para Subtração");
+    System.out.println("Digite (3) para Multiplicação");
+    System.out.println("Digite (4) para Divisão");
+    System.out.println("=============================");
 	
     System.out.print("Digite a Operação Desejada: ");
     int Operacao = entrada.nextInt();
@@ -43,8 +43,9 @@ public class Calculadora {
             double Div = Valor1 / Valor2;
             System.out.println(Valor1 + " / " + Valor2 + " = " + (Div));
             break;
-        
+
     }
+    System.out.println("=============================");
     
   }
 }
